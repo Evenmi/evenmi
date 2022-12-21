@@ -1,0 +1,239 @@
+div.App{
+    
+}
+header{
+	width: 90%;
+    padding-top: 25px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+header div{
+	text-align: center;
+}
+header h1{
+  font-size: 32px;
+  font-weight: bolder;
+}
+header h1 a b{
+  color: #47b97d;
+}
+header span{
+  font-size: 12px;
+  padding-bottom: -10px;
+}
+header small{
+	font-size: 10px;
+}
+header div.right{
+    width: 60%;
+}
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+header div.right ul li{
+    margin-left: 5%;
+}
+header div.right ul li:nth-child(5) a{
+    color: #47b97d;
+}
+header div.right ul li a.button{
+    padding: 10px 15px;
+    border-radius: 10%;
+    background-color: #47b97d;
+    color: azure;
+}
+#home{
+    /* padding-top: 50px; */
+}
+#home .wrapper{
+    display: flex;
+    align-items: center;
+}
+#home div.left-container{
+    width: 60%;
+    text-align: center;
+}
+#home div.left-container div{
+    position: relative;
+    width: 75%;
+}
+#home div.left-container div img{
+    width: 100%;
+    display: block;
+}
+/* #home div.left-container div.logo-bottom{
+    position: absolute;
+    right: 410px;
+} */
+#home div.left-container h4{
+    font-size: 30px;
+}
+#home div.left-container h4 b{
+    color: #47b97d;
+}
+#home div.left-container span{
+    display: block;
+    font-size: 15px;
+}
+#home div.left-container small{
+    
+}
+#home div.left-container small a{
+    color: #47b97d;
+}
+#home div.right-container{
+    width: 40%;
+}
+#home div.right-container p{
+    font-size: 26px;
+    text-align: center;
+    padding: 50px 0;
+}
+#about{
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+#about div.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about div.content p{
+    width: 50%;
+    font-size: 24px;
+}
+#about div.content div{
+    width: 40%;
+}
+#about div.content a{
+    color: #47b97d;
+    cursor: pointer;
+}
+
+#about .wrapper{
+}
+#about div.logo{
+    width: 50%;
+}
+#about div.logo img{
+    display: flex;
+    width: 100%;
+}
+#about .wrapper a.button{
+    background-color: #47b97d;
+    padding: 10px 15px;
+    display: block;
+    color: azure;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3%;
+}
+#service{
+    padding: 50px 0;
+    background-color: rgb(247, 242, 242);
+}
+#service h3{
+    text-align: center;
+    font-size: 32px;
+}
+#service ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#service ul li{
+    background-color: #fff;
+    padding: 10px;
+   
+}
+#service ul li a span{
+    width: 10%;
+}
+#service ul li a span img{
+    display: block;
+    width: 100%;
+}
+#service ul li a small{
+    color: #47b97d;
+    font-size: 14px;
+}
+#contact{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+#contact .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#contact div.left{
+    width: 50%;
+}
+#contact div.left h6{
+    font-size: 30px;
+    width: 70%;
+    padding-bottom: 10%;
+}
+#contact div.left h6 a{
+    color: #47b97d;
+}
+#contact div.left div span{
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+#contact div.left div{
+    padding-left: 10%;
+}
+#contact div.left div ul{
+    display: flex;
+    padding-left: 5%;
+}
+#contact div.left div ul li{
+    margin-right: 20px;
+}
+#contact div.left div small a{
+    color: #47b97d;
+    font-size: 20px;
+}
+#contact form{
+    width: 40%;
+    background-color: #f7f2f2;
+    padding: 20px;
+    border-radius: 5%;
+}
+#contact form input{
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5%;
+    padding-left: 10px;
+}
+/* #contact form input :placeholder-shown{
+    color: black;
+} */
+#contact form input:first-child{
+    margin-bottom: 20px;
+    height: 20%;
+}
+#contact form input:nth-child(2){
+    height: 40%;
+    margin-bottom: 20px;
+}
+#contact form input:nth-child(3){
+    margin-bottom: 20px;
+    height: 20%;
+}
+#contact form input[type=submit]{
+    padding: 10px;
+    background-color: #47b97d;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
